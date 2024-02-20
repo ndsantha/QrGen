@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QrGen</title>
+  </head>
+  <body>
+    <nav>
+      <input type="checkbox" id="check" style="display: none" />
+      <label id="lbl" for="check"><i class="fa-solid fa-bars"></i></label>
+      <lable class="logo">QrGenerator</lable>
+      <ul>
+        <li>Home</li>
+        <li>Services</li>
+        <li>Contact Us</li>
+        <li>About Us</li>
+      </ul>
+    </nav>
+    <h1>Live Qr Generator</h1>
+    <div class="qr" id="img"></div>
+    <div class="textt">
+      <textarea cols="20" rows="5"></textarea>
+    </div>
+    <div class="textt">
+      <a download="" onclick="demo()">Download</a>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
