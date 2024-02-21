@@ -46,7 +46,7 @@ ul li:hover {
   float: right;
   display: none;
 }
-@media (max-width: 977px) {
+@media (max-width: 995px) {
   #lbl {
     display: block;
   }
