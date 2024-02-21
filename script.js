@@ -20,4 +20,5 @@ function demo() {
   var imgsrc = inn.getAttribute("src");
   var a = document.querySelector("a");
   a.setAttribute("href", imgsrc);
+  location.reload();
 }
